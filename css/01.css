@@ -1,0 +1,437 @@
+		* {
+			padding: 0;
+			margin: 0;
+			list-style-type: none;
+			font-family: "微软雅黑";
+		}
+		
+		button {
+			border: 0px;
+			outline: none;
+			background-color: white;
+		}
+		
+		#bg {
+			width: 640px;
+			margin: 0px auto;
+		}
+		
+		.header {
+			height: 50px;
+			background-color: #ff9d00;
+		}
+		
+		.cheader {
+			height: 50px;
+			width: 600px;
+			position: relative;
+			left: 30px;
+		}
+		
+		.header ul li {
+			color: white;
+			position: relative;
+			float: right;
+			margin: 0 17px;
+			font-size: 16px;
+		}
+		
+		.header ul li a:hover {
+			color: #c1d5e5;
+		}
+		
+		a {
+			text-decoration: none;
+			color: white;
+		}
+		
+		.header ul {
+			position: relative;
+			top: 25%;
+		}
+		
+		.fl {
+			float: left;
+		}
+		
+		.title {
+			font-size: 22px;
+			color: white;
+			position: relative;
+			top: 20%;
+		}
+		
+		.stitle {
+			font-size: 13px;
+			color: white;
+			position: relative;
+			top: 42%;
+			left: 20px;
+		}
+		
+		.header2 {
+			height: 45px;
+			background-color: #f6f6f6;
+		}
+		
+		.header2>span {
+			font-size: 14px;
+			position: relative;
+			top: 25%;
+			left: 20px;
+			color: #666666;
+		}
+		
+		.menu1 {
+			padding: 16px 17px;
+		}
+		
+		.yellow {
+			background-image: url(../img/images/img_04.gif);
+		}
+		
+		.groom {
+			width: 40px;
+			height: 25px;
+			font-size: 14px;
+			color: white;
+			text-align: center;
+			line-height: 25px;
+			position: relative;
+			top: 0;
+			left: 0;
+			display: inline-block;
+		}
+		
+		.mtitle2 {
+			font-size: 18px;
+			font-weight: bold;
+		}
+		
+		.mt1textA {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			line-height: 25px;
+			font-size: 16px;
+			height: 50px;
+			overflow: hidden;
+		}
+		
+		.mt1textB {
+			margin-top: 10px;
+			margin-bottom: 10px;
+			line-height: 25px;
+			font-size: 16px;
+			height: auto;
+			overflow: hidden;
+		}
+		
+		.mt1text2 {
+			margin-top: 10px;
+		}
+		
+		.mt1text3 {
+			margin-top: 20px;
+		}
+		
+		.mt1text3>span {
+			position: relative;
+			left: 10px;
+			top: -8px;
+			font-size: 14px;
+		}
+		
+		.mt1text3btn1 {
+			border: 0;
+			outline: none;
+			background-image: url(../img/images/img_08.gif);
+			height: 42px;
+			width: 115px;
+			float: right;
+			color: white;
+			margin-right: 20px;
+			font-size: 16px;
+		}
+		
+		.mt1text3btn2 {
+			border: 0;
+			outline: none;
+			background-image: url(../img/images/img_10.gif);
+			height: 42px;
+			width: 115px;
+			float: right;
+			color: white;
+			font-size: 16px;
+		}
+		
+		.mtspan {
+			margin-left: 10px;
+			margin-right: 10px;
+			font-size: 14px;
+			position: relative;
+			top: -3px;
+		}
+		
+		.textcolor1 {
+			color: #ff8a00;
+		}
+		
+		.textcolor2 {
+			color: #9fadc7;
+		}
+		
+		.morebtn {
+			background-image: url(../img/images/buttom_03.jpg);
+			width: 24px;
+			height: 12px;
+			border: 0;
+			outline: none;
+		}
+		
+		.cent {
+			position: relative;
+			left: 47%;
+		}
+		
+		.line {
+			position: relative;
+			left: -17px;
+		}
+		
+		.m2titlesp1 {
+			font-size: 14px;
+			color: #444444;
+			font-weight: bold;
+			position: relative;
+			top: -20px;
+		}
+		
+		.m2titlesp2 {
+			font-size: 12px;
+			color: #adadadad;
+			position: relative;
+			left: -75px;
+			top: -3px;
+		}
+		
+		.m2titleimg2 {
+			position: relative;
+			left: -72px;
+			top: -18px;
+		}
+		
+		.m2titleimg3 {
+			position: relative;
+			left: 285px;
+			top: -5px
+		}
+		
+		.m2body1 {
+			line-height: 34px;
+			font-size: 16px;
+			width: 630px;
+			position: relative;
+			left: 5px;
+			padding: 8px;
+		}
+		
+		.context {
+			background-image: url(../img/images/context1_03.jpg);
+			width: 304px;
+			height: 34px;
+			margin-top: 10px;
+		}
+		
+		.context>button {
+			position: relative;
+			top: 1px;
+		}
+		
+		.context1>span {
+			font-size: 14px;
+			margin-left: 5px;
+			color: #ff9d00;
+			position: relative;
+			top: -3px;
+		}
+		
+		.context1 {
+			margin-top: 8px;
+			margin-left: 18px;
+			margin-right: 13px;
+			float: left;
+			background-color: white;
+			height: 18px;
+			overflow: hidden;
+		}
+		
+		.ldate {
+			font-size: 12px;
+			color: #adadadad;
+		}
+		.m2talkmenu{
+			background-image: url(../img/images/talk_03.jpg);
+			background-repeat: no-repeat;
+			margin-top: 10px;
+		}
+		.m2talk {
+			margin-top: 10px;
+			padding: 20px 45px 1px 20px;
+		}		
+		.m2talk>div {
+			font-size: 14px;
+			color: #666666;
+		}
+		
+		.m2talk>span {
+			position: relative;
+			top: -8px;
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+		
+		.m2talkinfo {
+			padding-left: 35px;
+			line-height: 25px;
+			font: 14px;
+			color: #666666;
+		}
+		
+		.lline {
+			margin-top: 10px;
+			border: 0.5px dashed#dcdcdc
+		}
+		
+		.bline {
+			height: 14px;
+			background-color: #f6f6f6;
+			border: 0px;
+			margin-bottom: 20px;
+			margin-top: 20px;
+		}
+		
+		.mline {
+			margin-top: 20px;
+			height: 1px;
+			background-color: #e5e5e5;
+			border: 0px;
+		}
+		
+		.hotq {}
+		
+		.hotqtitle {
+			padding-left: 20px;
+		}
+		
+		.hotqinfo {
+			padding-top: 20px;
+			padding-left: 20px;
+			color: #666666;
+			font-size: 16px;
+			line-height: 40px;
+		}
+		
+		.hotqinfo>textarea {
+			border: 0px;
+			background-image: url(../img/images/inputtext_03.jpg);
+			background-repeat: no-repeat;
+			width: 601px;
+			height: 101px;
+			padding: 12px;
+			resize: none;
+			outline: none;
+		}
+		
+		.hotqb>button {
+			background-image: url(../img/images/obtn_03.jpg);
+			background-repeat: no-repeat;
+			border: none;
+			width: 85px;
+			height: 32px;
+			position: relative;
+			top: -10px;
+			color: white;
+			font-size: 16px;
+		}
+		
+		.hotqb>span {
+			font-size: 14px;
+			color: #666666;
+			position: relative;
+			top: -10px;
+			margin: 0 10px;
+		}
+		
+		.hotqb {
+			position: relative;
+			top: -20px;
+			padding-right: 20px;
+			float: right;
+		}
+		
+		.bottom {
+			margin-top: 40px;
+			background-color: #F6F6F6;
+			height: 199px;
+		}
+		
+		.binfo {
+			font-size: 12px;
+			color: #b2b2b2;
+			text-align: center;
+			line-height: 20px;
+			height: 150px;
+		}
+		
+		.bbar {
+			width: 640px;
+			height: 49px;
+			background-color: white;
+			text-align: justify;
+		}
+		
+		.bbargat {
+			background-image: url(../img/images/img_50.gif);
+			background-repeat: no-repeat;
+			height: 30px;
+			width: 75px;
+			border: 0px;
+			color: #7c7c7c;
+			margin-left: 10px;
+			margin-right: 20px;
+		}
+		
+		.bbar>span {
+			font-size: 18px;
+			color: #666666;
+			margin-right: 10px;
+			margin-left: 10px;
+		}
+		
+		.bbar>img {
+			position: relative;
+			top: 10px;
+		}
+		
+		.bbaras {
+			background-image: url(../img/images/bas_03.jpg);
+			height: 50px;
+			width: 223px;
+			border: 0px;
+			float: right;
+		}
+		
+		.bbarla {
+			margin: 0px 10px;
+		}
+		
+		.fade-enter-active,
+		.fade-leave-active {
+			transition: opacity .5s;
+		}
+		
+		.fade-enter,
+		.fade-leave-to	
+		{
+			opacity: 0;
+		}

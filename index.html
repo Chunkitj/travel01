@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>旅游问答</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/01.css" />
+
+	<body>
+		<div id='app'>
+			<div id='bg'>
+				<div class='header'>
+					<div class="cheader">
+						<div class="title fl">旅游问答</div>
+						<div class="stitle fl">自由行分享</div>
+						<ul style="float: right;">
+							<li>
+								<a href="#new">景点</a>
+							</li>
+							<li>
+								<a href="#new">结伴</a>
+							</li>
+							<li>
+								<a href="#new">游记</a>
+							</li>
+							<li>
+								<a href="#new">问答</a>
+							</li>
+							<li>
+								<a href="#new">首页</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="header2">
+					<span>首页 > 问答详情 > 准备出发去贵州玩，怎么玩省钱省事呢</span>
+				</div>
+				<div class="menu1">
+					<div class="mtitle1">
+						<span class="yellow groom">推荐</span>
+						<span class="mtitle2">去贵州怎么玩比较好？有哪些好玩的景点？需要玩几天时间？大约多少费用？要不要请当地的导游？</span>
+					</div>
+					<div :class="{'mt1textA':!isshow1,'mt1textB':isshow1}">
+						全家人准备去贵州玩三到五天，有老人小孩，怎么出行会比较方便，主要担心贵州的景点之间的距离相隔是不是有点远？想问一下去过的朋友们有没有好的推荐，自助游想问一下去过的朋友们有没有好的推荐，自助游想问一下去过的朋友们有没有好的推荐，自助游想问一下去过的朋友们有没有好的推荐，自助游
+					</div>
+					<button class="morebtn cent" @click="isshow1=!isshow1"></button>
+					<div class="mt1text2">
+						<img src="img/images/img_31.gif"><span class="mtspan textcolor1">7条评论</span>
+						<button @click=setCookie("joke",1,100);add(jocook1)><img src="img/images/img_29.gif"><span class="mtspan textcolor2">{{this.tQustion+parseInt(this.jocook1)}}个赞</span></button>
+						<span class="mtspan textcolor2">时间：2018-07-15</span>
+					</div>
+					<hr class="lline" />
+					<div class="mt1text3">
+						<img src="img/images/avada_03.jpg"><span class="textcolor2">天使在人间</span>
+						<button class="mt1text3btn2">我来回答</button>
+						<button class="mt1text3btn1">为TA点亮</button>
+					</div>
+				</div>
+				<hr class="bline" />
+				<div class="menu2">
+					<div class="menu2title">
+						<div style="margin: 15px 0px 5px 15px;">全部回答(23)</div>
+						<img src="img/images/line3_02.jpg" />
+					</div>
+					<div class="m2body1">
+						<div>
+							<img src="img/images/avada_06.jpg" />
+							<span class="m2titlesp1">遥远的星星</span>
+							<span class="m2titlesp2">2018-07-18</span>
+							<img class="m2titleimg2" src="img/images/img_18.gif" />
+							<img class="m2titleimg3" src="img/images/bestan-1_03.jpg">
+						</div>
+						<div style="margin-bottom: 20px;">
+							贵州景点特别的分散，以贵阳为中心，精华的景区特别的多，一般是需要游玩4-5天的时间，可以把贵州的精华景点游览完，个人觉得要玩就要玩好，否则玩个2-3天，很多景点玩不到，下次去又太麻烦了。<br /> 后来在找攻略的时候，找到了当地的黔黔自由行，他们在当地非常有名，主打的结伴自由行，接站、酒店、门票、吃饭、交通这些都可以安排，而且价格还实惠。全程的服务都特别好，少了很多像传统旅行社的束缚。都是他们的团队在本地资源丰富，有自己的车队和酒店，感觉特别的用心，可以直接和他们家管家联系，我自己总结，找对了才能玩的更开心，大家可以借鉴一下。 <br/> 小林为我们规划的行程最最满意的一点就是在西江可以观赏美丽的夜景。所以在这里良心推荐给你！
+							<span style="color: red;">小林的微信：17684256353</span> <br /><br /> 所以强烈推荐楼主还是选择黔黔自由行去贵州游玩 <br /> 我把游玩的行程写出来，希望能帮到大家。 <br /><br /> 行程第一天：抵达爽爽的贵阳，司机接我们直接送到酒店，休息一会后，逛吃逛吃~~~
+							<img src="img/images/img_23.gif" /><br /> 行程第二天：小七孔景区（被誉为世界上最美的天然“绿宝石”盆地）
+							<img src="img/images/img_26.gif" /><br /> 行程第二天：小七孔景区（被誉为世界上最美的天然“绿宝石”盆地）
+						</div>
+						<div class="context">
+							<button class="context1" @click=setCookie("joke2",1,100);add2(jocook2)><img src="img/images/img_29.gif" ><span>{{this.m2bodyg+parseInt(this.jocook2)}}</span></button>
+							<button class="context1"><img src="img/images/img_36.gif"><span>2</span></button>
+							<button class="context1" @click="isshow2=!isshow2"><img src="img/images/img_31.gif"><span>评论</span></button>
+							<button class="context1"><img src="img/images/img_33.gif"><span>举报</span></button>
+						</div>
+						<transition name="fade">
+							<div class="m2talkmenu" v-show="isshow2">
+								<div class="m2talk">
+									<img src="img/images/avata2_03.jpg">
+									<span>盛夏小果子</span>
+									<span class="ldate">2018-07-08</span>
+									<div class="m2talkinfo">楼主，我想问一下，我们行程只有三天，比较赶，可能玩不了那么多地方，有点纠结要不要去森林公园，听说很大，要逛很久，不去的话会不会很可惜？</div>
+									<hr class="lline" />
+								</div>
+								<div class="m2talk">
+									<img src="img/images/avata2_03.jpg">
+									<span>盛夏小果子</span>
+									<span class="ldate">2018-07-08</span>
+									<div class="m2talkinfo">楼主，我想问一下，我们行程只有三天，比较赶，可能玩不了那么多地方，有点纠结要不要去森林公园，听说很大，要逛很久，不去的话会不会很可惜？</div>
+									<hr class="lline" />
+								</div>
+								<div class="m2talk">
+									<img src="img/images/avata2_03.jpg">
+									<span>盛夏小果子</span>
+									<span class="ldate">2018-07-08</span>
+									<div class="m2talkinfo">楼主，我想问一下，我们行程只有三天，比较赶，可能玩不了那么多地方，有点纠结要不要去森林公园，听说很大，要逛很久，不去的话会不会很可惜？</div>
+									<hr class="lline" />
+								</div>
+							</div>
+						</transition>
+					</div>
+					<hr class="bline" />
+					<div class="m2body1">
+						<div>
+							<img src="img/images/avada_06.jpg" />
+							<span class="m2titlesp1">遥远的星星</span>
+							<span class="m2titlesp2">2018-07-18</span>
+							<img class="m2titleimg2" src="img/images/img_18.gif" />
+						</div>
+						<div>
+							楼主，我想问一下，我们行程只有三天，比较赶，可能玩不了那么多地方，有点纠结要不要去森林公园，听说很大，要逛很久，不去的话会不会很可惜？
+						</div>
+						<div class="context">
+							<button class="context1" @click=setCookie("joke3",1,100);add3(jocook3)><img src="img/images/img_29.gif"><span>{{m2bodyg1+parseInt(this.jocook3)}}</span></button>
+							<button class="context1"><img src="img/images/img_36.gif"><span>2</span></button>
+							<button class="context1"><img src="img/images/img_31.gif"><span>评论</span></button>
+							<button class="context1"><img src="img/images/img_33.gif"><span>举报</span></button>
+						</div>
+					</div>
+					<hr class="bline" />
+				</div>
+				<div class="hotq">
+					<div class="hotqtitle">
+						<img src="img/images/gline_03.jpg" / style="margin-right: 10px; margin-top: 2px;">
+						<span style="color: #666666; font-size: 16px;">热门问题</span>
+					</div>
+					<hr class="mline" />
+					<div class="hotqinfo">
+						<div>贵州四日游应该怎么安排合适?</div>
+						<div>求推荐贵州口碑好的旅游俱乐部！</div>
+						<div>求贵州旅游的新玩法？</div>
+						<div>贵州三日游应该怎么玩？</div>
+						<div>贵州旅游不跟团可以吗？</div>
+					</div>
+				</div>
+				<hr class="bline" style="margin-top: 0;" />
+				<div class="hotq">
+					<div class="hotqtitle">
+						<img src="img/images/gline_03.jpg" / style="margin-right: 10px; margin-top: 2px;">
+						<span style="color: #666666; font-size: 16px;">我要回答</span>
+					</div>
+					<hr class="mline" />
+					<div class="hotqinfo">
+						<textarea placeholder="请输入评论内容："></textarea>
+					</div>
+					<div class="hotqb">
+						<img src="img/images/unknowavata_03.jpg" />
+						<span>游客</span>
+						<button>提交</button>
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="binfo">
+						<div><br /><br />
+							<span>中世乐游旅游服务（东莞）有限公司</span><br />
+							<span>Copyright@2018 粤ICP备18084547号-3</span><br />
+							<span>东莞市南城区第一国际F座702室0769-22271540</span><br />
+						</div>
+					</div>
+					<div class="bbar">
+						<button class="bbargat">达人推荐</button>
+						<img src="img/images/img_53.gif" />
+						<span>七妹</span>
+						<img class="bbarla" src="img/images/laline_03.jpg" />
+						<img src="img/images/img_56.gif" />
+						<span>18655485578</span>
+						<button class="bbaras"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="node_modules/vue/dist/vue.js"></script>
+	<script>
+		let vm = new Vue({
+			el: "#app",
+			created() {
+				this.jocook1 = this.getCookie("joke");
+				this.jocook2 = this.getCookie("joke2");
+				this.jocook3 = this.getCookie("joke3");
+
+			},
+			data: {
+				isshow1: false,
+				isshow2: false,
+				tQustion: 450,
+				myTqustion: 0,
+				m2bodyg: 65,
+				myM2bodyg: 0,
+				m2bodyg1: 65,
+				myM2body1g: 0,
+				jocook1:0,
+				jocook2:0,
+				jocook3:0,
+
+			},
+			methods: {
+				getCookie(cname) {
+					var name = cname + "=";
+					var ca = document.cookie.split(';');
+					for(var i = 0; i < ca.length; i++) {
+						var c = ca[i].trim();
+						if(c.indexOf(name) == 0) return c.substring(name.length, c.length);
+					}
+					return "0";
+				},
+				setCookie(cname, cvalue, exdays) {
+					var d = new Date();
+					d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+					var expires = "expires=" + d.toGMTString();
+					document.cookie = cname + "=" + cvalue + "; " + expires;
+
+				},
+				add(a) {
+					if(a == 0 && this.myTqustion == 0) {
+						this.tQustion += 1;
+						this.myTqustion += 1;
+					} else {
+						alert("无法重复点赞。")
+					}
+				},
+				add2(a) {
+					if(a == 0 && this.myM2bodyg == 0 ) {
+						this.m2bodyg += 1;
+						this.myM2bodyg += 1;
+					} else {
+						alert("无法重复点赞。")
+					}
+				},
+				add3(a) {
+					if(a == 0 && this.myM2body1g == 0) {
+						this.m2bodyg1 += 1;
+						this.myM2body1g += 1;
+					} else {
+						alert("无法重复点赞。")
+					}
+				},				
+			}
+
+		})
+	</script>
+</html>
